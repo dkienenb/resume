@@ -1,0 +1,229 @@
+%-------------------------
+% Resume in Latex
+% Author : David Kienenberger
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage[dvipsnames]{xcolor}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\color{BrickRed}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{BrickRed}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+  {\Huge \scshape David Kienenberger} \\ \vspace{5pt}
+  \small \raisebox{-0.1\height}\faPhone\ +1 (607) 732-3512~ \href{mailto:dkienenb@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{dkienenb@gmail.com}} ~
+  \href{https://github.com/dkienenb}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/dkienenb}}
+  \vspace{-8pt}
+\end{center}
+
+\vspace{-10pt}
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Alfred State College of Technology}{2023 - present}{B.Tech in Information Technology: Applications Software Development}{Currently Enrolled -- expected graduation year 2026}
+\resumeSubheading
+{Corning Community College}{2021 - 2023}{AAS in Computer Science}{Incomplete -- transferred}
+\resumeSubHeadingListEnd
+\vspace{-10pt}
+
+
+
+% -----------EXPERIENCE-----------
+\section{Work Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Alfred State College of Technology}{September 2023 -- present}
+{Upper level programming tutor}{}
+\resumeSubheading
+{Wegmans Food Markets}{April 2021 -- present}
+{Sub Shop, Pizza, and Dishwashing, depending on company needs}{}
+\resumeSubHeadingListEnd
+\vspace{-10pt}
+
+\section{Interpersonal (Soft) Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \item{
+        \textbf{Reliable}{: Consistently meets deadlines and exceeds expectations by delivering high-quality work on time, demonstrating reliability and commitment to the team's success.} \\
+        \textbf{Critical Thinking Problem Solver}{: Effectively analyzes complex issues and develops innovative solutions, showcasing strong critical thinking and problem-solving abilities.} \\
+        \textbf{Knowledge-Based Service}{: Provides exceptional customer service by leveraging in-depth knowledge of industry best practices and company products, ensuring customer satisfaction and loyalty.} \\
+        \textbf{Conflict Resolution}{: Skillfully mediates disputes between customers and the company, resolving conflicts with empathy and professionalism to maintain positive relationships and uphold the company's reputation.} \\
+
+    }
+\end{itemize}
+\vspace{-10pt}
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \item{
+        \textbf{Languages}{: Java, Lua, Bash, C/C++, C\#, Python, Javascript, Expect} \\
+        \textbf{Security-Focused Technologies}{: VMWare, VirtualBox, SSH, Tor, CyberChef} \\
+        \textbf{Quality Assurance}{: Agile, Test-Driven Development, JUnit, TestNG } \\
+        \textbf{Emerging technologies}{: ChatGPT, Google Gemini, LLMs in general } \\
+        \textbf{Web \& Database Technologies}{: Docker, Node.js, Microsoft Access, SQL} \\
+        \textbf{Developer Tools}{: Git, Github, Mercurial, JetBrains IDE Suite, Visual Studio, Eclipse IDE, Vim} \\
+        \textbf{Operating Systems}{: Linux, Windows, MacOS } \\
+        \textbf{Documentation}{: Markdown, Microsoft Office Suite, LibreOffice Suite, Latex } \\
+
+        }
+\end{itemize}
+\vspace{-10pt}
+
+\section{Honours and Awards}
+
+\resumeSubHeadingListStart
+\resumeSubheading{National Cyber League}{2024}{}{}
+\vspace{-15pt}
+\resumeItem{
+    A cybersecurity competition that tests participants' skills in real-world scenarios such as network security, cryptography, and forensics.
+}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \item{
+        \textbf{Individual performance (Spring)}{: Ranked 1,282 out of 7,371 participants (Top 18\%)} \\
+        \textbf{Team performance (Spring)} {: Ranked 199 out of 4,199 teams (Top 5\%)} \\
+        }  \item{
+        \textbf{Individual performance (Fall)}{: Ranked 1104 out of 8487 participants (Top 13\%)} \\
+        \textbf{Team performance (Fall)} {: Ranked 80 out of 4,894 teams (Top 2\%)} \\
+        }
+\end{itemize}
+\vspace{-10pt}
+
+\resumeSubHeadingListEnd
+
+\section{References}
+
+\resumeSubHeadingListStart
+\resumeSubheading{Matthew Haas}{Professor at Corning Community College}{}{}
+\vspace{-20pt}
+\resumeSubheading{\href{mailto:haas@corning-cc.edu}{haas@corning-cc.edu}}{(607) 953-6025}{}{}
+\vspace{-10pt}
+
+\resumeSubheading{Justin Briggs}{Professor at Alfred State College of Technology}{}{}
+\vspace{-20pt}
+\resumeSubheading{\href{mailto:briggsja@alfredstate.edu}{briggsja@alfredstate.edu}}{}{}{}
+\vspace{-10pt}
+
+\resumeSubheading{Jeremy Campbell}{Front End Service Team Lead at Elmira Wegmans}{}{}
+\vspace{-20pt}
+\resumeSubheading{\href{mailto:JJSCampbell@gmail.com}{JJSCampbell@gmail.com}}{(607) 731-2876}{}{}
+\vspace{-10pt}
+
+\resumeSubheading{Nickalis Cantineri}{Management Intern/Cafe Manager at Elmira Wegmans}{}{}
+\vspace{-20pt}
+\resumeSubheading{\href{mailto:seafood.store070@wegmans.com}{souschef.store070@wegmans.com}}{(607) 684-3086}{}{}
+\vspace{-10pt}
+
+\resumeSubHeadingListEnd
+
+\end{document}
